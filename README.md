@@ -26,3 +26,10 @@ Vous pouvez cloner le projet avec la commande `git clone https://github.com/Lord
 Puis dans votre teminal ou celui de votre éditeur, installez les dépendances avec la commande `yarn install`.
 
 Enfin, vous pouvez lancer le projet avec la commande `yarn start`. Une nouvelle fenetre de votre navigateur préféré devrait s'ouvrir. Si ce n'est pas le cas, je vous invite à vous rendre sur <http://localhost:8080/>
+
+*Ce projet utilise <a href="https://gitmoji.dev">
+  <img
+    src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square"
+    alt="Gitmoji"
+  />
+</a> dont j'aime beaucoup l'état d'esprit.*
