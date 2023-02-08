@@ -11,14 +11,18 @@ J'espère que l'expérience sera pour vous aussi plaisante à vivre que pour moi
 
 Bien `codement`,
 
-Thibaut (Quel beau prénom n'est-ce pas?)
+Thibaut (Quel beau prénom n'est-ce pas et ce malgré les différentes orthographes 😉)
 
-## Instructions
+## Le projet
+
+Il s'agit d'un projet simple mais qui vous est totalement dédié. C'est pour cette raison que je n'ai pas souhaité deployer le site et le rendre accessible au tout venant ni le diffuser. Dans le même esprit, j'ai préféré profiter de cette occasion pour également m'entrainer comme j'aurais pu le faire pour un projet bateau alimentant mon porfolio. Mais, plutôt que de coder des sites vide de sens, je préfère développer un site qui a du coeur.
+
+Dans la mesure où il s'agit d'un site simple, j'ai préféré ne pas utiliser Redux ou l'utilisation d'une base de donnée, afin d'éviter l'effet "Chasser une mouche avec un basouka", j'espère que ce choix ne vous chagrinera pas outre mesure.
 
 ### Initialisation du projet
 
 Vous pouvez cloner le projet avec la commande `git clone https://github.com/LordThi/Coucou-Swello.git`.
 
-Puis dans votre teminal ou celui de votre éditeur, installez les dépendances avec la commande `yarn install` ou `npm install` selon votre préférence.
+Puis dans votre teminal ou celui de votre éditeur, installez les dépendances avec la commande `yarn install`.
 
-Dans la mesure où il s'agit d'un site simple, j'ai préféré ne pas utiliser Redux ou l'utilisation d'une base de donnée, afin d'éviter l'effet "Chasser une mouche avec un basouka", j'espère que ce choix ne vous chagrinera pas outre mesure.
+Enfin, vous pouvez lancer le projet avec la commande `yarn start`. Une nouvelle fenetre de votre navigateur préféré devrait s'ouvrir. Si ce n'est pas le cas, je vous invite à vous rendre sur <http://localhost:8080/>
