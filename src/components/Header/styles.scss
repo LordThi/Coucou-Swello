@@ -1,0 +1,39 @@
+@use "src/styles/vars";
+
+// div{
+//   background-color: vars.$color-blue-swello;
+// }
+@media screen and (min-width: 568px) {
+  .header__sticky {
+    top: 0;
+    z-index: 111;
+  }
+}
+
+.header {
+  &__sticky {
+    background-color: vars.$color-blue-swello;
+    transition: top 300ms ease-in-out;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 28px 30px;
+    width: 100%;
+    position: relative;
+    max-width: 1560px;
+    margin: auto;
+    font-size: 16px;
+  }
+}
+
+.icon-logo {
+  height: 22px;
+  width: 93px;
+  background-position: 0 0;
+  vertical-align: middle;
+}
