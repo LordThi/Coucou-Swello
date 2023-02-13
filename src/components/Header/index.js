@@ -10,8 +10,8 @@ const Header = () => {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  // console.log(`mail ${email}`)
-  // console.log(`pass ${password}`)
+  console.log(`mail ${email}`)
+  console.log(`pass ${password}`)
   const [isLoginOpen, setLoginOpen] = useState(false);
 
   const handleEmailChangeField = (evt) => {
