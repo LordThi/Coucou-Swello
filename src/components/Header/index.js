@@ -43,15 +43,16 @@ const Header = () => {
       < img src={twiboLogo} className='icon-logo' alt="twibo logo" />
       <Toggler onEmitClick={handleClick} isOpen={isLoginOpen}/>
       {
-        isLoginOpen && <LoginForm
-        email={email}
-        password={password}
-        emailChangeField={handleEmailChangeField}
-        passwordChangeField={handlePasswordChangeField}
-        handleLogin={handleLogin}
-        handleLogout={handleLogout}
-        // isLogged={isLogged}
-        loggedMessage={welcomeMessage}
+        isLoginOpen && 
+        <LoginForm
+          email={email}
+          password={password}
+          emailChangeField={handleEmailChangeField}
+          passwordChangeField={handlePasswordChangeField}
+          handleLogin={handleLogin}
+          handleLogout={handleLogout}
+          // isLogged={isLogged}
+          loggedMessage={welcomeMessage}
       />
       }
       
