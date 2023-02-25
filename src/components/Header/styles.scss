@@ -16,18 +16,32 @@
     transition: top 300ms ease-in-out;
     width: 100%;
     box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 
   &__nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:left;
     padding: 28px 30px;
     width: 100%;
     position: relative;
     max-width: 1560px;
     margin: auto;
     font-size: 16px;
+  }
+
+  &__login--form {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: 20px;
   }
 }
 

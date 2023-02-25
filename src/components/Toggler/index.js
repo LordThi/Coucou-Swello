@@ -1,19 +1,26 @@
-
+import './styles.scss';
 
 const Toggler = ({
   onEmitClick,
   isOpen
 }) => {
-  const classNameCSS = isOpen ? "toggler toggler--open" : "toggler"
+  const classNameCSS = isOpen ? "toggler--open" : "toggler--close"
   console.log(isOpen)
   return (
 
-    !isOpen &&
+    isOpen ?
       (<button 
           className={classNameCSS}
           type="button"
           onClick={onEmitClick}>
-            Connexion
+            x
+      </button>)
+      :
+      (<button 
+        className={classNameCSS}
+        type="button"
+        onClick={onEmitClick}>
+          Connexion
       </button>)
 
   );

@@ -1,0 +1,41 @@
+@use '../../styles/vars';
+
+.toggler--open{
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: vars.$color-blue-swello;
+  color: white;
+  border: solid 2px vars.$color-pink-swello;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 36px;
+  right: 22px;
+  transform: translate(50%, -50%);
+  z-index: 1;
+  &:hover{
+    background-color: vars.$color-pink-swello;
+    transition: background-color 300ms ease-in-out;
+  }
+}
+
+.toggler--close{
+  border: solid 2px vars.$color-pink-swello;
+  font-size: 16px;
+  padding: 9px 25px 10px;
+  letter-spacing: 1.1px;
+  border-radius: 24px;
+  font-weight: bold;
+  background-color: vars.$color-blue-swello;
+  color: white;
+    &:hover{
+      background-color: vars.$color-pink-swello;
+      transition: background-color 300ms ease-in-out;
+    }
+}
+

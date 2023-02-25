@@ -40,22 +40,23 @@ const Header = () => {
   return(
     <div className='header__sticky'>
       <div className='header__nav'>
-      < img src={twiboLogo} className='icon-logo' alt="twibo logo" />
-      <Toggler onEmitClick={handleClick} isOpen={isLoginOpen}/>
-      {
-        isLoginOpen && 
-        <LoginForm
-          email={email}
-          password={password}
-          emailChangeField={handleEmailChangeField}
-          passwordChangeField={handlePasswordChangeField}
-          handleLogin={handleLogin}
-          handleLogout={handleLogout}
-          // isLogged={isLogged}
-          loggedMessage={welcomeMessage}
-      />
-      }
-      
+        < img src={twiboLogo} className='icon-logo' alt="twibo logo" />
+        <div className='header__login--form'>
+          {
+            isLoginOpen && 
+            <LoginForm
+            email={email}
+            password={password}
+            emailChangeField={handleEmailChangeField}
+            passwordChangeField={handlePasswordChangeField}
+            handleLogin={handleLogin}
+            handleLogout={handleLogout}
+            // isLogged={isLogged}
+            loggedMessage={welcomeMessage}
+            />
+          }
+          <Toggler onEmitClick={handleClick} isOpen={isLoginOpen}/>
+        </div>
       </div>
     </div>
   )
