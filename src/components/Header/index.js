@@ -32,7 +32,6 @@ const Header = () => {
 
   const handleClick = () => {
     setLoginOpen(!isLoginOpen);
-    console.log(isLoginOpen)
   };
 
   const welcomeMessage = "Bienvenue, c'est bien d'être curieux"

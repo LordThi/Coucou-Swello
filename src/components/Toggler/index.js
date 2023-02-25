@@ -5,7 +5,6 @@ const Toggler = ({
   isOpen
 }) => {
   const classNameCSS = isOpen ? "toggler--open" : "toggler--close"
-  console.log(isOpen)
   return (
 
     isOpen ?
