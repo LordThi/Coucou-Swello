@@ -8,10 +8,6 @@
   position: relative;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   background-color: vars.$color-blue-swello;
-  // &-element{
-  //   display: flex;
-  //   flex-direction: row;
-  // }
 }
 
 .login-form-element> *:not(:last-child) {
@@ -23,4 +19,12 @@
   border: solid 2px vars.$color-pink-swello;
   border-radius: 8px;
   width: 100%;
+  letter-spacing: 1.1px;
+  font-weight: bold;
+  background-color: vars.$color-blue-swello;
+  color: white;
+    &:hover{
+      background-color: vars.$color-pink-swello;
+      transition: background-color 300ms ease-in-out;
+    }
 }
