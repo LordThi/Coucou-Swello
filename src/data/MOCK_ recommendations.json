@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "type":"facebook",
+    "author":"Marcos Zukergergitos",
+    "msg":"Si je l'avais connu, je l'aurais probablement embauché"
+  },
+  {
+    "id":2,
+    "type":"twitter",
+    "author":"Elan Zuks",
+    "msg":"J'ai créé Tesla en espérant qu'il s'occupe du frontend du site"
+  },
+  {
+    "id":3,
+    "type":"instagram",
+    "author":"Kylie Jenner",
+    "msg":"J'ai compris React.js grâce à Thibaut"
+  },
+  {
+    "id":4,
+    "type":"linkedin",
+    "author":"Sa Mère",
+    "msg":"Je lui aurais bien signé moi-même un stage, malheureusement je n'avais pas de stylo"
+  },
+]
