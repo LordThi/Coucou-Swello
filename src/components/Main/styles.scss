@@ -1,0 +1,41 @@
+@use '../../styles/vars';
+
+.main__container {
+  margin-top: 78px;
+}
+
+.right-background-triangle {
+  height: 0;
+  width: 0;
+  border-left: 810px solid vars.$color-blue-swello;
+  border-bottom: 515px solid transparent;
+  right: 0;
+  transform: translateX(405px);
+  position: absolute;
+  z-index: 0;
+  top: -38px;
+}
+
+
+.left-background-triangle {
+  height: 0;
+  width: 0;
+  border-left: 800px solid vars.$color-blue-swello;
+  border-bottom: 480px solid transparent;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+
+.message__container {
+  background-color: vars.$color-background-swello;
+  background-image: url(../../assets/img/background-top.png);
+  padding: 0 30px;
+  margin: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: relative;
+  z-index: 1;
+  width: 95%;
+}
