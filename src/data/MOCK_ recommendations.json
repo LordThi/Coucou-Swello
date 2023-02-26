@@ -1,24 +1,28 @@
 [
   {
     "id":1,
+    "category":"even",
     "img":"facebook_img",
     "author":"Marcos Zukergergitos",
     "msg":"Si je l'avais connu, je l'aurais probablement embauché"
   },
   {
     "id":2,
+    "category":"odd",
     "img":"twitter_img",
     "author":"Elan Zuks",
     "msg":"J'ai créé Tesla en espérant qu'il s'occupe du frontend du site"
   },
   {
     "id":3,
+    "category":"even",
     "img":"instagram_img",
     "author":"Kylie Jenner",
     "msg":"J'ai compris React.js grâce à Thibaut"
   },
   {
     "id":4,
+    "category":"odd",
     "img":"linkedin_img",
     "author":"Sa Mère",
     "msg":"Je lui aurais bien signé moi-même un stage, malheureusement je n'avais pas de stylo"

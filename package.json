@@ -51,6 +51,7 @@
   "dependencies": {
     "prop-types": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "swiper": "^9.0.5"
   }
 }

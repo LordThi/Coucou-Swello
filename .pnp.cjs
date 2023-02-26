@@ -63,6 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.57.1"],\
             ["sass-loader", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:13.2.0"],\
             ["style-loader", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:3.3.1"],\
+            ["swiper", "npm:9.0.5"],\
             ["terser-webpack-plugin", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:5.3.6"],\
             ["webpack", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:5.75.0"],\
             ["webpack-cli", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:5.0.1"],\
@@ -10745,6 +10746,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["sass", "npm:1.57.1"],\
             ["sass-loader", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:13.2.0"],\
             ["style-loader", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:3.3.1"],\
+            ["swiper", "npm:9.0.5"],\
             ["terser-webpack-plugin", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:5.3.6"],\
             ["webpack", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:5.75.0"],\
             ["webpack-cli", "virtual:67f70e02568f98eae2d76cc2aaaddc36061bd074dae928eba68922c5e2d8ba21c537ed5972f0c4dc6752304b1d23cce36aabfa2cc1fc3eb91766710402bc2f1d#npm:5.0.1"],\
@@ -11481,6 +11483,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["ssr-window", [\
+        ["npm:4.0.2", {\
+          "packageLocation": "./.yarn/cache/ssr-window-npm-4.0.2-01f9c0151e-df18260092.zip/node_modules/ssr-window/",\
+          "packageDependencies": [\
+            ["ssr-window", "npm:4.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ssri", [\
         ["npm:9.0.1", {\
           "packageLocation": "./.yarn/cache/ssri-npm-9.0.1-33ce27f4f8-fb58f5e46b.zip/node_modules/ssri/",\
@@ -11735,6 +11746,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["csso", "npm:4.2.0"],\
             ["picocolors", "npm:1.0.0"],\
             ["stable", "npm:0.1.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["swiper", [\
+        ["npm:9.0.5", {\
+          "packageLocation": "./.yarn/cache/swiper-npm-9.0.5-afb755771d-33c45c0d9e.zip/node_modules/swiper/",\
+          "packageDependencies": [\
+            ["swiper", "npm:9.0.5"],\
+            ["ssr-window", "npm:4.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\

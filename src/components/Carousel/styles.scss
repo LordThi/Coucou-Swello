@@ -1,5 +1,18 @@
 @use '../../styles/vars';
 
 .social-media--card {
-  
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 75px;
+  width: 300px;
+}
+
+.social-media--card:nth-child(even) {
+  transform: translateX(20px);
+}
+
+.social-media--card:nth-child(odd) {
+  transform: translateX(-20px);
 }
