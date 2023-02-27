@@ -1,18 +1,61 @@
 @use '../../styles/vars';
 
+.swiper-slide {
+  display: flex;
+  flex-direction: row;
+}
+
 .social-media--card {
   background-color: white;
+  border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-bottom: 20px;
-  padding: 10px;
-  height: 75px;
-  width: 300px;
+  padding: 30px;
+  height: 175px;
+
+  display: flex;
 }
 
-.social-media--card:nth-child(even) {
-  transform: translateX(20px);
+
+img{
+  box-sizing: content-box;
+  width: 100%;
 }
 
-.social-media--card:nth-child(odd) {
-  transform: translateX(-20px);
+.card{
+  &__img{
+    width: 150px;
+    height: 150px;
+    padding: 0px 16px;
+  }
+  &__comment{
+    width: 80%;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  &__message{
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    color: vars.$color-blue-swello;
+    box-sizing: content-box;
+  }
+  &__stars{
+    padding: 16px 0px 20px;
+    text-align: left;
+  }
+  &__author{
+    text-align: left;
+    font-size: 13px;
+    color: #C0C0C0;
+    font-weight: bold;
+  }
+  &__job{
+    text-align: left;
+    font-size: 13px;
+    color: #C0C0C0;
+  }
 }
+
