@@ -2,29 +2,33 @@
   {
     "id":1,
     "category":"even",
-    "img":"facebook_img",
-    "author":"Marcos Zukergergitos",
-    "msg":"Si je l'avais connu, je l'aurais probablement embauché"
+    "img":"https://image.noelshack.com/fichiers/2018/08/5/1519401390-olalalaa.png",
+    "author":"Michael Scott",
+    "msg":"« Je suis triste car si je l'avais connu, je l'aurais probablement embauché et nous serions amis. »",
+    "job":"Dunder Mifflin World's Best Boss"
   },
   {
     "id":2,
     "category":"odd",
-    "img":"twitter_img",
-    "author":"Elan Zuks",
-    "msg":"J'ai créé Tesla en espérant qu'il s'occupe du frontend du site"
+    "img":"https://i.imgflip.com/4/6ne4b3.png",
+    "author":"Elan Musqué",
+    "msg":"« J'ai créé Tesla en espérant qu'il s'occupe du frontend du site. »",
+    "job":"Influenceur Crypto"
   },
   {
     "id":3,
     "category":"even",
-    "img":"instagram_img",
+    "img":"https://pngimg.com/uploads/mark_zuckerberg/mark_zuckerberg_PNG34.png",
     "author":"Kylie Jenner",
-    "msg":"J'ai compris React.js grâce à Thibaut"
+    "msg":"« J'ai compris React.js grâce à Thibaut. »",
+    "job":"Lost in VR"
   },
   {
     "id":4,
     "category":"odd",
-    "img":"linkedin_img",
+    "img":"https://storage.googleapis.com/sticker-prod/hXhuePfTrpSdBvLDQXQW/0.png",
     "author":"Sa Mère",
-    "msg":"Je lui aurais bien signé moi-même un stage, malheureusement je n'avais pas de stylo"
+    "msg":"« Je lui aurais bien signé moi-même un stage, malheureusement je n'avais pas de stylo. »",
+    "job":"Éducatrice Très Spécialisée"
   }
 ]
