@@ -24,15 +24,13 @@
   height: 333px;
 }
 .right-background-triangle {
-  height: 0;
-  width: 0;
-  border-left: 810px solid vars.$color-blue-swello;
-  border-bottom: 515px solid transparent;
-  right: 0;
-  transform: translateX(405px);
-  position: absolute;
-  z-index: -1;
-  top: -38px;
+  height: 700px;
+  width: 220px;
+    position: absolute;
+    right: 0;
+    top:-250px;
+    z-index: -1;
+
 }
 
 .main__inner {
@@ -96,6 +94,7 @@ h2 {
 }
 
 .man__chilling{
+  overflow: visible;
   display: block;
   width: 404px;
   height: 525px;
@@ -106,16 +105,51 @@ h2 {
 }
 
 .main__whoami {
-  position: relative;
   z-index: 1;
   width: 95%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   padding: 0px 60px;
+  background-color: white;
 }
 
-.whoami__title {
+.whoami {
+  &__title {
   width: 70%;
+  }
+  &__theorem {
+    display: flex;
+    justify-content: space-around;
+    &--list{
+      font-size: 25px;
+      color: vars.$color-blue-swello;
+      text-align: justify;
+      margin-top: 60px;
+      border: 5px solid vars.$color-pink-swello;
+      border-radius: 10px;
+      padding: 20px;
+      width: 420px;
+      height: 425px;
+      &-title{
+        font-size: 32px;
+      }
+      &-item{
+        line-height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+  &__solution{
+    width: 50%;
+  }
+  &__calendar-explanation {
+  font-size: 25px;
+  color: vars.$color-blue-swello;
+  text-align: justify;
+  margin: 60px 0;
+  }
 }

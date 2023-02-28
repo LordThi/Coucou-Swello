@@ -1,21 +1,28 @@
 @use '../../styles/vars';
 
-.swiper-slide {
-  display: flex;
-  flex-direction: row;
+.carousel__container{
+  max-width: 1560px;
+  margin: 0px 39px;
+  background-color: #feeee8;
+}
+.swiper{
+  height: 500px;
 }
 
-.social-media--card {
+.swiper-slide  {
+  display: flex;
+  flex-direction: row;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-bottom: 20px;
   padding: 30px;
-  height: 175px;
-
-  display: flex;
+  height: 228px;
+  width: 700px;
 }
-
+.slide-content{
+  width: 100px;
+}
 
 img{
   box-sizing: content-box;

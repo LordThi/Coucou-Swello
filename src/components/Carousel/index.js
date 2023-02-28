@@ -1,10 +1,10 @@
 
-import "swiper/css";
-import './styles.scss';
-import "swiper/css/pagination";
+import "swiper/scss";
+import "swiper/scss/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import recommendations from '../../data/MOCK_ recommendations.json';
 import fivestar from '../../assets/img/Five-Star.png';
+import './styles.scss';
 
 
 import { Autoplay, Pagination, Navigation } from "swiper";
@@ -14,7 +14,8 @@ const Carousel = () => {
   return (
 
     <div className='carousel__container'>
-      <Swiper
+
+      {/* <Swiper
         slidesPerView={2}
         spaceBetween={30}
         centeredSlides={false}
@@ -32,7 +33,7 @@ const Carousel = () => {
       >
         {
           recommendations.map((recommendation) => (
-          <SwiperSlide key={recommendation.id} className={`social-media--card ${recommendation.category}`}>
+          <li className="swiper-slide" key={recommendation.id} className="social-media--card">
 
             <div className="card__img">
               <img src={recommendation.img} alt=""/>
@@ -43,11 +44,26 @@ const Carousel = () => {
               <p className="card__author">{recommendation.author}</p>
               <p className="card__job">{recommendation.job}</p>
             </div>
-          </SwiperSlide>
+          </li>
           ))
         }
-      </Swiper>
-    </div>
+      </Swiper> */}
+
+<Swiper
+      spaceBetween={50}
+      slidesPerView={3}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+    </Swiper>
+
+
+
+</div>
   );
 };
 
