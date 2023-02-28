@@ -2,6 +2,7 @@
 import './styles.scss';
 import Header from '../Header';
 import Main from '../Main';
+import Carousel from '../Carousel';
 
 // == Composant
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <Main />
+      {/* <Carousel /> */}
     </div>
   );
 }
