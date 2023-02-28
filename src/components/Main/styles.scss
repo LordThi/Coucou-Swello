@@ -58,7 +58,7 @@
   width: 50%;
 }
 
-.main__title {
+h1 {
   margin: 98px 0 0 0;
   font-size: 66px;
   font-weight: 700;
@@ -67,7 +67,7 @@
   text-align: left;
 }
 
-.main__subtitle {
+h2 {
   display: inline-block;
   text-align: left;
   font-size: 60px;
@@ -103,4 +103,19 @@
   z-index: 101;
   bottom: -100px;
   right: 60px;
+}
+
+.main__whoami {
+  position: relative;
+  z-index: 1;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0px 60px;
+}
+
+.whoami__title {
+  width: 70%;
 }
