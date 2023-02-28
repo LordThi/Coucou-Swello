@@ -2,10 +2,26 @@
 
 .main__container {
   max-width: 1560px;
-  margin: 78px auto;
   position: relative;
+  border-top: 97px solid vars.$color-blue-swello;
 }
 
+.left-background-triangle {
+  height: 0;
+  width: 0;
+  border-left: 800px solid #302a7e;
+  border-bottom: 480px solid transparent;
+  position: absolute;
+  z-index: 0;
+}
+
+.right__triangle-wraper{
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  width: 36px;
+  height: 333px;
+}
 .right-background-triangle {
   height: 0;
   width: 0;
@@ -17,19 +33,6 @@
   z-index: 0;
   top: -38px;
 }
-
-
-.left-background-triangle {
-  height: 0;
-  width: 0;
-  border-left: 800px solid vars.$color-blue-swello;
-  border-bottom: 480px solid transparent;
-  transform: translateX(-200px);
-  position: absolute;
-  z-index: 0;
-  top: -38px;
-}
-
 
 .main__inner {
   background-color: vars.$color-background-swello;
@@ -43,6 +46,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .message__container{
@@ -74,7 +78,7 @@
   font-size: 25px;
   color: vars.$color-blue-swello;
   text-align: justify;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .right__container {
@@ -95,6 +99,6 @@
   height: 525px;
   position: absolute;
   z-index: 101;
-  bottom: -260px;
-  right: 100px;
+  bottom: -100px;
+  right: 60px;
 }

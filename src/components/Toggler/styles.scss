@@ -17,7 +17,7 @@
   top: 36px;
   right: 22px;
   transform: translate(50%, -50%);
-  z-index: 1;
+  z-index: 3;
   &:hover{
     background-color: vars.$color-pink-swello;
     transition: background-color 300ms ease-in-out;
