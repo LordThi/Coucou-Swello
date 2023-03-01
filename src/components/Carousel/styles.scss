@@ -5,23 +5,25 @@
   margin: 0px 39px;
   background-color: #feeee8;
 }
-.swiper{
-  height: 500px;
-}
 
 .swiper-slide  {
-  display: flex;
-  flex-direction: row;
   background-color: white;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin-bottom: 20px;
+  margin: 20px 0;
   padding: 30px;
-  height: 228px;
-  width: 700px;
+  height: 162px;
+  display: flex;
+  flex-direction: row;
 }
 .slide-content{
   width: 100px;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  background: vars.$color-pink-swello;
+  position: unset;
 }
 
 img{
@@ -34,6 +36,7 @@ img{
     width: 150px;
     height: 150px;
     padding: 0px 16px;
+    align-items: center;
   }
   &__comment{
     width: 80%;
@@ -52,6 +55,7 @@ img{
   &__stars{
     padding: 16px 0px 20px;
     text-align: left;
+    width: 150px;
   }
   &__author{
     text-align: left;

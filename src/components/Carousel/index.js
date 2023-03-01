@@ -7,7 +7,7 @@ import fivestar from '../../assets/img/Five-Star.png';
 import './styles.scss';
 
 
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 
 const Carousel = () => {
 
@@ -50,15 +50,36 @@ const Carousel = () => {
       </Swiper> */}
 
 <Swiper
+      width={1424.24}
       spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+      slidesPerView={2}
+      centeredSlides={true}
+      loop={true}
+      autoplay={{
+        delay: 1500,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
+      modules={[Autoplay, Pagination]}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      {
+          recommendations.map((recommendation) => (
+          <SwiperSlide key={recommendation.id} className="social-media--card">
+
+            <div className="card__img">
+              <img src={recommendation.img} alt=""/>
+            </div>
+            <div className="card__comment">
+              <p className="card__message">{recommendation.msg}</p>
+              <img  className="card__stars" src={fivestar} alt="" />
+              <p className="card__author">{recommendation.author}</p>
+              <p className="card__job">{recommendation.job}</p>
+            </div>
+          </SwiperSlide>
+          ))
+        }
     </Swiper>
 
 

@@ -53,5 +53,6 @@
     "react": "*",
     "react-dom": "*",
     "swiper": "^9.0.5"
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }
