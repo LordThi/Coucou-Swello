@@ -15,9 +15,22 @@ Thibaut (Quel beau prénom n'est-ce pas et ce malgré les différentes orthograp
 
 ## Le projet
 
-Il s'agit d'un projet simple mais qui vous est totalement dédié. C'est pour cette raison que je n'ai pas souhaité deployer le site et le rendre accessible au tout venant ni le diffuser. Dans le même esprit, j'ai préféré profiter de cette occasion pour également m'entrainer comme j'aurais pu le faire pour un projet bateau alimentant mon porfolio. Mais, plutôt que de coder des sites vide de sens, je préfère développer un site qui a du coeur.
+Il s'agit d'un projet simple mais qui vous est totalement dédié. C'est pour cette raison que je n'ai pas souhaité deployer le site et le rendre accessible au tout venant ni le diffuser. Dans le même esprit, j'ai préféré profiter de cette occasion pour également m'entrainer comme j'aurais pu le faire pour un projet bateau alimentant mon porfolio. Mais, plutôt que de coder des sites vide de sens, je préfère développer un site qui a du coeur 🫀.
 
 Dans la mesure où il s'agit d'un site simple, j'ai préféré ne pas utiliser Redux ou l'utilisation d'une base de donnée, afin d'éviter l'effet "Chasser une mouche avec un basouka", j'espère que ce choix ne vous chagrinera pas outre mesure.
+
+### Outils et framework
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
+
+### Inspiration 💙
+
+[![nom de l'image](/src/assets/img/swello-logo.png)](https://swello.com/fr/)
 
 ### Initialisation du projet
 
