@@ -1,20 +1,26 @@
 @use 'reset';
 @use 'vars';
 
-body {
-  font-family: sans-serif;
-  size-adjust: 100%;
-  background-color: #f4f4f8;
-}
 
-/* 
-  // or you can import your own font
   @font-face {
     font-family: 'Roboto';
     src: url('../assets/fonts/Roboto-Regular.ttf');
   }
 
+    @font-face {
+    font-family: 'Eastman-Grotesque-Heavy';
+    src: url('../assets/fonts/Eastman-Grotesque-Heavy.otf') format('opentype');
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
+    background-color: vars.$color-background-body-swello;
   }
-*/
+
+  h1 {
+    font-family: 'Eastman-Grotesque-Heavy', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Eastman-Grotesque-Heavy', sans-serif;
+  }
