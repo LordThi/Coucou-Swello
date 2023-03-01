@@ -1,8 +1,10 @@
 @use '../../styles/vars';
 
 .carousel__container{
+  margin: auto;
   max-width: 1560px;
   background-color: vars.$color-background-main-swello;
+  padding-top: 60px;
 }
 
 .swiper-slide  {
