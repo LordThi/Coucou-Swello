@@ -67,50 +67,104 @@ const Main = () => {
               C'est avec la même curiosité que je me suis inscrit sur votre plateforme, bien avant de décider de vous composer ce merveilleux site dont le CSS est une douce mélodie (c'est faux 🙅‍♂️).
             </p>
             <p className='whoami__calendar-explanation'>
-
+              Il y a beaucoup de features qui m'ont plu mais ce qui m'a sauté aux yeux c'est que: c'est beau et c'est fluide. Alors faisons connaissance 🙋‍♂️.
             </p>
           </div>
       </div>
-      <div className='watalike'>
-            <h2 className='watalike_title'>
-              Ce que j'💙 chez swello
-            </h2>
-            <p className='watalike_text'>
-
-            </p>
+      <div className='meet'>
+      <h2 className='why_title'>Pourquoi moi? 🤌</h2>
+        <div className='meet__line'>
+          <p className='meet-text'>
+          Je suis né en l'an de grâce 1988.<br/>
+          En ce temps là...<br/>
+          trop loin?<br/>
+          ok ok, avançons le temps...
+          </p>
+          <div className='meet-img'>
+            <img src="https://media.tenor.com/PjI-fL_eodcAAAAC/rick-and-morty-rick.gif" />
           </div>
-          <div className='why'>
-            <h1>"Ok, ok... mais pourquoi?" 🤔</h1>
-            <h2 className='why_title'>Pourquoi vous? 🫵</h2>
-            <p className='why__text'>
-              Il faut être honnete, il y a beaucoup de belles entreprises en région parisienne. Alors pourquoi (mais surtout comment) je vous ai trouvé?
-            </p>
-            <p className='why__text'><u>Cluedo du love</u> 🕵️‍♂️</p>
-            <ul className='why_you--list why__text'>
-              <li className='why_you--list-item '>
-                🌞 <span className='pink-span'>Votre localité</span> , j’ai vécu des moments d’enfance merveilleux à Sanary auprès de mes grands-parents, mes parents ont décidé de s’installer à Hyères par la suite et, maintenant papa, je souhaite apporter à ma fille une qualité de vie meilleure en vivant à mon tour dans cette magnifique région.
-              </li><br/>
-              <li className='why_you--list-item'>
-                💾 <span className='pink-span'>Votre stack technique</span>, car bien que de formation purement JavaScript, je souhaite tout de même découvrir et apprendre le PHP. Le fait que vous proposez des projets permettant cet apprentissage est une réelle motivation à travailler avec vous.
-              </li><br/>
-              <li className='why_you--list-item'>
-                📊 <span className='pink-span'>Votre mission</span>, qui est assurément la raison la plus importante. La lecture de mon CV a pu vous montrer le côté “atypique” de mon proil. Le fil conducteur de ces expériences diverses a toujours été: “Donner du sens à mon activité”. Cela a été le cas dans la santé pendant mes études ou mon activité de vidéaste, dans mon commerce mais aussi dans ma parenthèse administrative. Je retrouve cela dans les outils que vous proposez.
-              </li><br/>
-            </ul>
-            <h2 className='why_title'>Pourquoi moi? 🤌</h2>
-            <p className='why__text'>
-              J'ai découvert le code à la dure lors de ma piscine à 42. Malgré la difficulté, je suis tombé amoureux du développement. Cela s'est confirmé durant les 5 derniers mois chez O'Clock. Je comprends et apprends vite, je suis volontaire devant la difficulté et j'ai hâte d'apprendre auprès de développeurs plus expérimentés dans un vrai projet professionnel 👨‍💻
-            </p>
-            <h2 className='why_title'>Pourquoi Nous? 🫶</h2>
-            <p className='why__text'>
-            Faut il connaitre les reseaux sociaux pour être un bon développeur chez swello?
-            Théoriquement non, mais autant que connaitre ses 🐄 vous aide à faire un bon 🧀, connaitre le coeur de votre activité peut me permettre d'apporter mes idées en plus de ma technique et mon entousiame.
-            </p>
-          </div>
-          
         </div>
-        <img className='computer' src={betterComputer} alt="" />
-      <Carousel />
+
+        <div className='meet__line'>
+          <div className='meet-img2'>
+            <img src="https://media.tenor.com/Na2fcNb0VSkAAAAd/why-rick.gif" />
+          </div>
+          <p className='meet-text'>
+          J'ai écrit ma première ligne de code il y a un an pendant une des épreuves les plus sélectives que j'ai pu connaitre: la piscine de 42.<br/>
+          C'est un peu comme remplacer le guitariste de Queen 🎸 en ayant regardé un tuto YouTube.
+          </p>
+        </div>
+
+        <div className='meet__line'>
+          <p className='meet-text'>
+          Pour autant, je suis tombé amoureux du développement.<br/>
+          Cela s'est confirmé avec le temps et encore plus durant les 5 derniers mois chez O'Clock, lieu où j'ai appris HTML, CSS, JavaScript, Express.js, React & Redux. 
+          </p>
+          <div className='meet-img2'>
+            <img className='meet-img2' src="https://thumbs.gfycat.com/HappygoluckyCoarseChimneyswift-size_restricted.gif" />
+          </div>
+        </div>
+
+        <div className='meet__line'>
+          <div className='meet-img2'>
+            <img src="https://media2.giphy.com/media/ZdBnIqBeVWBYTobH8U/giphy.gif?cid=ecf05e47jisq6xfco3nsk0knisxo6egufom7h3qxq03nee2p&rid=giphy.gif&ct=g" />
+          </div>
+          <p className='meet-text'>
+          Je comprends et apprends vite, je suis volontaire devant la difficulté et j'ai hâte d'apprendre auprès de développeurs plus expérimentés dans un vrai projet professionnel 👨‍💻
+          </p>
+        </div>
+      </div>
+      
+      <div className='why'>
+        <h2 className='why_title'>Pourquoi vous? 🫵</h2>
+        <p className='why__text'>
+          Il faut être honnête, il y a beaucoup de belles entreprises en région parisienne. Alors pourquoi (mais surtout comment) je vous ai trouvé?
+        </p>
+        <p className='why__text'><u>Cluedo du love</u> 🕵️‍♂️</p>
+        <ul className='why_you--list why__text'>
+          <li className='why_you--list-item '>
+            🌞 <span className='pink-span'>Votre localité</span>. J’ai vécu des moments d’enfance merveilleux à Sanary auprès de mes grands-parents, mes parents ont décidé de s’installer à Hyères par la suite et, maintenant papa, je souhaite apporter à ma fille une qualité de vie meilleure en vivant à mon tour dans cette magnifique région.
+          </li><br/>
+          <li className='why_you--list-item'>
+            💾 <span className='pink-span'>Votre stack technique</span>. Bien que de formation purement JavaScript, je souhaite tout de même découvrir et apprendre le PHP. Le fait que vous proposez des projets permettant cet apprentissage est une réelle motivation à travailler avec vous.
+          </li><br/>
+          <li className='why_you--list-item'>
+            📊 <span className='pink-span'>Votre mission</span>. La lecture de mon CV a pu vous montrer le côté “atypique” de mon profil. Le fil conducteur de ces expériences diverses a toujours été: “Donner du sens à mon activité”. Cela a été le cas dans la santé pendant mes études ou mon activité de vidéaste, dans mon commerce mais aussi dans ma parenthèse administrative. Je retrouve cela dans les outils que vous proposez.
+          </li><br/>
+          <li className='why_you--list-item'>
+            🤡 <span className='pink-span'>Votre humour</span>. Partout où je vois vos communications passer, je retrouve de la légerté dans le serieux et surtout de la bienveillance. En ça, je me retrouve beaucoup dans vos valeurs. Le genre d'entreprise où tout le monde adorerait travailler (surtout moi).
+          </li><br/>
+        </ul>
+
+        <h2 className='why_title'>Pourquoi Nous? 🫶</h2>
+        <p className='why__text'>
+        Faut il connaitre les reseaux sociaux pour être un bon développeur chez swello?
+        Théoriquement non, mais autant que connaitre ses 🐄 vous aide à faire un bon 🧀, connaitre le coeur de votre activité peut me permettre d'apporter mes idées en plus de ma technique et mon enthousiame.
+        </p>
+      </div>
+    </div>
+    
+    <div className='end_of_main'>
+      <div className='end_of_main-right-container'>
+        <div className='end_of_main-text-container'>
+          <p className='end_of_main-text'>
+            Je vous apporterais un cerveau, 10 doigts de plus, énormément de bonne volonté et de l'🤡 (beaucoup).
+          </p>
+          <p className='end_of_main-text'>
+            Vous m'apporterez de l'expérience, des défis pour mon besoin constant d'apprendre et une raison supplémentaire de m'installer dans le coin.
+          </p>
+          <p className='end_of_main-text2'>
+            🤝
+          </p>
+        </div>
+        <div className='end_of_main-right-container-blue-rectangle'></div>
+      </div>
+      <div className='end_of_main-computer'>
+        <img  src={betterComputer} alt="" />
+      </div>
+    </div>
+    
+      
     </div>
   )
 };

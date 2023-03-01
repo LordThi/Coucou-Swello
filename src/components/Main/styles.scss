@@ -123,6 +123,7 @@ h2 {
   &__theorem {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 60px;
     &--list{
       font-size: 25px;
       color: vars.$color-blue-swello;
@@ -145,20 +146,54 @@ h2 {
     }
   }
   &__solution{
-    width: 50%;
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 60px;
   }
   &__calendar-explanation {
   font-size: 25px;
+  line-height: 35px;
   color: vars.$color-blue-swello;
   text-align: justify;
-  margin: 60px 0;
+  }
+}
+
+.meet {
+  margin-top: 60px;
+  &__line{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin: 20px 60px;
+
+  }
+  &-text{
+    font-size: 25px;
+    line-height: 35px;
+    color: vars.$color-blue-swello;
+    text-align: justify;
+    margin-top: 60px;
+    width: 30%;
+    margin: auto;
+  }
+  &-img{
+    width: 300px;
+    margin:auto;
+  }
+  &-img2{
+    height: 300px;
   }
 }
 
 .why {
-
+  &__title{
+    margin-top: 30 px;
+  }
   &__text{
   font-size: 25px;
+  line-height: 35px;
   color: vars.$color-blue-swello;
   text-align: justify;
   margin-top: 60px;
@@ -167,5 +202,44 @@ h2 {
 
 .pink-span {
   color: vars.$color-pink-swello;
-  font-weight: bold;
+  font-weight:bolder;
+  font-size: 30px;
 }
+
+.end_of_main {
+  max-width: 1560px;
+  display: flex;
+  flex-direction: row;
+
+  &-right-container{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &-blue-rectangle{
+      height: 10.57%;
+      background-color: vars.$color-blue-swello;
+      margin-bottom: 2px;
+    }
+  }
+  &-text{
+    font-size: 25px;
+    line-height: 35px;
+    color: vars.$color-blue-swello;
+    text-align: justify;
+    padding: 60px 0 60px 60px;
+  }
+
+  &-text2{
+    font-size: 80px;
+  }
+
+  &-computer{
+    width: 50%;
+
+    right: -717px;
+}
+}
+
+
