@@ -41,11 +41,9 @@
   border-top-right-radius: 8px;
   position: relative;
   z-index: 1;
-  width: 95%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto;
   padding-bottom: 60px;
 }
 
@@ -81,6 +79,10 @@ h2 {
   margin-top: 60px;
 }
 
+.free__button {
+  width: 300px;
+}
+
 .right__container {
   display: flex;
   justify-content: right;
@@ -90,7 +92,8 @@ h2 {
 .img__carousel{
   max-width: 520px;
   position: absolute;
-  right: 220px;
+  right: 170px;
+  top: 100px;
 }
 
 .man__chilling{
@@ -106,11 +109,9 @@ h2 {
 
 .main__whoami {
   z-index: 1;
-  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 auto;
   padding: 0px 60px;
   background-color: white;
 }
@@ -152,4 +153,19 @@ h2 {
   text-align: justify;
   margin: 60px 0;
   }
+}
+
+.why {
+
+  &__text{
+  font-size: 25px;
+  color: vars.$color-blue-swello;
+  text-align: justify;
+  margin-top: 60px;
+  }
+}
+
+.pink-span {
+  color: vars.$color-pink-swello;
+  font-weight: bold;
 }
