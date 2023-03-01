@@ -19,8 +19,20 @@
 
   h1 {
     font-family: 'Eastman-Grotesque-Heavy', sans-serif;
+    margin: 98px 0 0 0;
+    font-size: 66px;
+    font-weight: 700;
+    color: vars.$color-blue-swello;
+    display: inline-block;
+    text-align: left;
   }
 
   h2 {
     font-family: 'Eastman-Grotesque-Heavy', sans-serif;
+    display: inline-block;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 700;
+    color: vars.$color-pink-swello;
+    margin-top: 10px;
   }
