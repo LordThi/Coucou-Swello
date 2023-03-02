@@ -1,1 +1,49 @@
 @use "src/styles/vars";
+
+.chat{
+  &__container{
+    border: 2px solid vars.$color-pink-swello;
+    background-color: #f9fafa;
+    width: 350px;
+    height: 490px;
+  }
+  &__header{
+    background-color: vars.$color-blue-swello;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+  }
+  &__btn{
+    background-color: vars.$color-pink-swello;
+    width: 80px;
+    border-radius: 30px;
+    border: 1px solid vars.$color-pink-swello;
+    &:hover{
+      width: 100px;
+      border: 10px solid vars.$color-blue-swello;
+    }
+  }
+  &__icon{
+    margin: 0 auto;
+    width: 60px;
+    font-size: 50px;
+  }
+  &__chatpic{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+  &__pseudo{
+    text-align: left;
+    margin: auto auto auto 20px;
+  }
+}
+.pseudo{
+  color: vars.$color-pink-swello;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.disabel_btn{
+  background-color: lightgray;
+  cursor: not-allowed;
+}
