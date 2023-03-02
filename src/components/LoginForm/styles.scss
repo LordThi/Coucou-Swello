@@ -30,3 +30,9 @@
       transition: background-color 300ms ease-in-out;
     }
 }
+
+.login-form-message {
+  color: vars.$color-pink-swello;
+  font-weight: bold;
+  margin: 30px 0;
+}

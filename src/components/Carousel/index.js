@@ -12,6 +12,7 @@ import tiktok from '../../assets/img/tiktok.png';
 import youtube from '../../assets/img/youtube.png';
 import twitter from '../../assets/img/twitter.png';
 import pubsista from '../../assets/img/pubsista.png';
+import githubpink from '../../assets/img/github-pink.png';
 
 
 
@@ -96,24 +97,31 @@ const Carousel = () => {
           Et partout ailleurs
         </p>
         <div className="contact__way">
-            <a href=""><img className="social_icon" src={youtube} alt="" /></a>
-            <a href=""><img className="social_icon" src={twitter} alt="" /></a>
-            <a href=""><img className="social_icon" src={tiktok} alt="" /></a>
-            <a href=""><img className="social_icon" src={insta} alt="" /></a>
-            <a href=""><img className="social_icon" src={facebook} alt="" /></a>
-            <div className="pub__sista">
-              <p>Et ma petite soeur dont je gère la stratégie</p>
-              <a href=""><img className="pub__sista-img" src={pubsista} alt="" /></a>
-            </div>
+            <a href="https://www.youtube.com/@Locksherty"><img className="social_icon" src={youtube} alt="" /></a>
+            <a href="https://twitter.com/locksherty"><img className="social_icon" src={twitter} alt="" /></a>
+            <a href="https://www.tiktok.com/@locksherty"><img className="social_icon" src={tiktok} alt="" /></a>
+            <a href="https://www.instagram.com/lordthibiscuit/"><img className="social_icon" src={insta} alt="" /></a>
+            <a href="https://www.facebook.com/ThibIscuite"><img className="social_icon" src={facebook} alt="" /></a>
+            <a href="https://github.com/LordThi"><img className="social_icon" src={githubpink} alt="" /></a>
+            
+        </div>
+        <div className="pub__sista">
+          <p className="pub__sista-text">
+            (Et ma petite soeur dont je gère la stratégie)</p>
+          <a href="https://www.instagram.com/madamerrance/"><img className="pub__sista-img" src={pubsista} alt="" /></a>
         </div>
       </div>
     </div>
+    <h1 className="last_bisou">
+      à bientôt 🤙
+    </h1>
     <div className="end_of_the_line">
       <div className="it-is-1h-du-mat-here">
         <img src={lastSmoke} alt="" />
       </div>
       <div className="final_rocket"></div>
     </div>
+    
 
 </div>
   );

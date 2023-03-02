@@ -7,7 +7,6 @@ const LoginForm = ({
   emailChangeField,
   passwordChangeField,
   handleLogin,
-  handleLogout,
   isLogged,
   loggedMessage,
 }) => {
@@ -23,19 +22,14 @@ const LoginForm = ({
           <p className="login-form-message">
             {loggedMessage}
           </p>
-          <button
-            type="button"
-            className="login-form-button"
-            onClick={handleLogout}
-          >
-            Déconnexion
-          </button>
         </div>
       )}
+
       {!isLogged && (
-
         <form autoComplete="off" className="login-form-element" onSubmit={handleSubmit}>
-
+          <p className="login-form-message">
+            {loggedMessage}
+          </p>
           <Field
             name="email"
             placeholder="Adresse Email"

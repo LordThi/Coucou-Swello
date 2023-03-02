@@ -120,6 +120,8 @@ img{
   }
   &__way{
     color: vars.$color-pink-swello;
+    display: flex;
+    justify-content: space-around;
   }
 }
 
@@ -137,14 +139,20 @@ img{
 }
 
 .social_icon{
-  width: 24px;
+  width: 40px;
 }
 
 .pub__sista{
   display: flex;
   flex-direction: row;
-  &--img{
-    height: 24px;
+  margin-top: 40px;
+  justify-content: center;
+  &-text{
+    color: vars.$color-pink-swello;
+    margin: auto 20px;
+  }
+  &-img{
+    height: 30px;
   }
 }
 
@@ -158,11 +166,10 @@ img{
   padding-top: 288px;
 }
 
-.last_smoke{
-  position: relative;
-
-  height: 250px;
+.last_bisou{
+  
 }
+
 .final_rocket{
   background-image: url(../../assets/img/rocket.png);
   background-size: 248px 378.5px;
