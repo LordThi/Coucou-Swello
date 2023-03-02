@@ -12,9 +12,6 @@ const Main = () => {
       <div className='main__intro'>
         <div className='left-background-triangle'></div>
           <img className='right-background-triangle' src={rightRectangle} alt="" />
-        {/* <div className='right__triangle-wraper'>
-          <div className='right-background-triangle'></div>
-        </div> */}
         <div className='main__inner'>
           <div className='message__container'>
             <h1 className='main__title'>Coucou Swello 👋</h1>
@@ -33,7 +30,7 @@ const Main = () => {
         </div>
       </div>
       <div className='main__whoami'>
-        <h1 className='whoami__title'>Ce que vous n'apprendrez pas dans mon <h2>CV</h2></h1>
+        <h1 className='whoami__title'>Ce que vous n'apprendrez pas dans mon</h1><h2>CV</h2>
         <div className='whoami__theorem'>
           <div className='whoami__theorem--list'>
             <p className='whoami__theorem--list-title'>📆 Création de mes profils</p><hr/>
