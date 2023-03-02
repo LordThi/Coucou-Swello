@@ -23,9 +23,9 @@ Il y a beaucoup de CSS, je m'en suis rendu compte en avançant sur le projet. Ce
 
 Je vous joins le projet Figma [en suivant ce lien](https://www.figma.com/file/vK4UM2rTQxS53I5CJjB8nP/swello-project?t=fNaPov8Tc2pJKZ5z-1).  
 
-Je vosu écris ces mots le 2 Mars 2023, après de longs jours/semaines passés sur ce projet. C'est un projet auquel je tiens particulièrement car il s'agit de mon réel premier projet mené de bout en bout. J'ai beaucoup appris et rien que pour cela, l'expérience et les souffrances en ont valu la peine.  
+Je vous écris ces mots le 2 Mars 2023, après de longs jours/semaines passés sur ce projet. C'est un projet auquel je tiens particulièrement car il s'agit de mon réel premier projet mené de bout en bout. J'ai beaucoup appris et rien que pour cela, l'expérience et les souffrances en ont valu la peine.  
 
-Certaines parties restent perfectibles, notemment les performances (le site est un poil trop lourd) et surtout le responsive qui manque cruellement au site, mais il faut bien livrer le projet en V.1. et le temps presse pour moi aussi.  
+Certaines parties restent perfectibles, notamment les performances (le site est un poil trop lourd) et surtout le responsive qui manque cruellement au site, mais il faut bien livrer le projet en V.1. et le temps presse pour moi aussi.  
 
 Merci de tout coeur de m'avoir tant inspiré 💙
 
