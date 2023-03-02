@@ -55,7 +55,7 @@
 }
 
 .motivation__text{
-  font-size: 25px;
+  font-size: 20px;
   color: vars.$color-blue-swello;
   text-align: justify;
   margin-top: 60px;
@@ -135,7 +135,7 @@
     margin-top: 60px;
   }
   &__calendar-explanation {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 35px;
   color: vars.$color-blue-swello;
   text-align: justify;
@@ -152,7 +152,7 @@
 
   }
   &-text{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
     color: vars.$color-blue-swello;
     text-align: justify;
@@ -171,14 +171,25 @@
 
 .why {
   &__title{
-    margin-top: 30 px;
+    margin: 30px 0 60px 0;
   }
   &__text{
-  font-size: 25px;
+  font-size: 20px;
   line-height: 35px;
   color: vars.$color-blue-swello;
   text-align: justify;
-  margin-top: 60px;
+  padding: 30px;
+  }
+  &__cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  &__card {
+  width: 25%;
+  margin: 80px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
   }
 }
 
@@ -206,11 +217,11 @@
     }
   }
   &-text{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 35px;
     color: vars.$color-blue-swello;
     text-align: justify;
-    padding: 60px 0 60px 60px;
+    padding: 60px 0 60px 90px;
   }
 
   &-text2{
