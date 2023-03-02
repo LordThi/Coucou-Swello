@@ -23,8 +23,9 @@ const Chat = () => {
           </div>
         </div>
         <div className="message__container">
-          spiner?
-          <p className="messagerie"></p>
+          <p className="messagerie">
+            Vous vous doutez que je n'ai ps mis de websocket, j'espère. Après si vous vouslez me parler, envoyez moi un petit mot par mail ou sur LinkedIn 👐
+          </p>
         </div>
         <p className="is__typing"></p>
         <input className='disabel_btn' type="text" disabled="disabled" placeholder="Nop..."/>
