@@ -1,6 +1,11 @@
 @use "src/styles/vars";
 
 .chat{
+    position: fixed;
+      top: 50%;
+      right: 23px;
+      transform: translateY(-50%);
+      z-index: 100;
   &__container{
     border: 2px solid vars.$color-pink-swello;
     background-color: #f9fafa;
@@ -48,17 +53,33 @@
   background-color: lightgray;
   cursor: not-allowed;
   width: 310px;
+  height: 40px;
 }
 
 .chat__message-container {
   border: 1px solid lightgray;
   margin: 20px 20px;
   width: 310px;
-  height: 300px;
+  height: 220px;
 }
 
-.disablebtn__container{
-  width: 310px;
-  height: 47.5px;
-  position: absolute;
+.disablebtn{
+  &__container{
+    width: 310px;
+    height: 47.5px;
+    position: absolute;
+  }
+  &__img{
+    width: 100%;
+  }
+}
+
+.messagerie-text{
+  text-align: left;
+  font-size: 15px;
+  margin: 5px 30px 0 5px;
+  padding: 20px;
+  background-color: vars.$color-blue-swello;
+  color: white;
+  border-radius: 30px;
 }

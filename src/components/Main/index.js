@@ -127,20 +127,6 @@ const Main = () => {
           <img src={MissionCard} alt="" className="why__card" />
           <img src={HumorCard} alt="" className="why__card" />
         </div>
-        {/* <ul className='why_you--list why__text'>
-          <li className='why_you--list-item '>
-            🌞 <span className='pink-span'>Votre localité</span>. J’ai vécu des moments d’enfance merveilleux à Sanary auprès de mes grands-parents, mes parents ont décidé de s’installer à Hyères par la suite et, maintenant papa, je souhaite apporter à ma fille une qualité de vie meilleure en vivant à mon tour dans cette magnifique région.
-          </li><br/>
-          <li className='why_you--list-item'>
-            💾 <span className='pink-span'>Votre stack technique</span>. Bien que de formation purement JavaScript, je souhaite tout de même découvrir et apprendre le PHP. Le fait que vous proposez des projets permettant cet apprentissage est une réelle motivation à travailler avec vous.
-          </li><br/>
-          <li className='why_you--list-item'>
-            📊 <span className='pink-span'>Votre mission</span>. La lecture de mon CV a pu vous montrer le côté “atypique” de mon profil. Le fil conducteur de ces expériences diverses a toujours été: “Donner du sens à mon activité”. Cela a été le cas dans la santé pendant mes études ou mon activité de vidéaste, dans mon commerce mais aussi dans ma parenthèse administrative. Je retrouve cela dans les outils que vous proposez. La centralisation, le panel d'outils de création mais aussi l'UI et l'UX fluide, je trouve que le produit est super.
-          </li><br/>
-          <li className='why_you--list-item'>
-            🤡 <span className='pink-span'>Votre humour</span>. Partout où je vois vos communications passer, je retrouve de la légerté dans le serieux et surtout de la bienveillance. En ça, je me retrouve beaucoup dans vos valeurs. Le genre d'entreprise où tout le monde adorerait travailler (surtout moi).
-          </li><br/>
-        </ul> */}
 
         <h2 className='why_title'>Pourquoi Nous? 🫶</h2>
         <p className='why__text'>

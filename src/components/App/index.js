@@ -9,7 +9,7 @@ import Chat from '../Chat';
 function App() {
   return (
     <div className="app">
-      {/* <Chat /> */}
+      <Chat />
       <Header />
       <Main />
       <Carousel />

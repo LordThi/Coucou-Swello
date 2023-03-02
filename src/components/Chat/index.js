@@ -15,7 +15,8 @@ const Chat = () => {
 
   return (
     <div className="chat">
-      <div className='chat__container'>
+      {isOpen &&
+      (<div className='chat__container'>
         <div className="chat__header">
           <img className='chat__chatpic' src={chatpic} alt="" />
           <div className="chat__pseudo">
@@ -24,14 +25,15 @@ const Chat = () => {
           </div>
         </div>
         <div className="chat__message-container">
-          <p className="messagerie">
-            Vous vous doutez que je n'ai ps mis de websocket, j'espère... Après si vous vouslez me parler, envoyez moi un petit mot par mail ou sur LinkedIn 👐
+          <p className="messagerie-text">
+            Je ne suis pas disponible pour le moment... Mais si vous voulez me parler, envoyez moi un petit mot par mail ou sur LinkedIn 👐
           </p>
         </div>
         <input className='disabel_btn' type="text" disabled="disabled" placeholder="Nop..."/>
         <div className="disablebtn__container"></div>
-        <img src={disabledbtn} alt="" />
-      </div>
+        <img className="disablebtn__img" src={disabledbtn} alt="" />
+      </div>)
+      }
       <div className='chat__btn-container'>
         <button className='chat__btn' onClick={handleClick}>
         {
