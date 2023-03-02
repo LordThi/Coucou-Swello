@@ -1,5 +1,9 @@
 @use '../../styles/vars';
 
+h1 {
+  font-size: 50px;
+}
+
 .carousel__container{
   margin: auto;
   max-width: 1560px;
@@ -71,3 +75,117 @@ img{
   }
 }
 
+.viens_on_est_bien{
+  font-size: 27px;
+  line-height: 35px;
+  color: vars.$color-blue-swello;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.bluff {
+  font-size: 15px;
+  color: vars.$color-pink-swello;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact {
+  &__container{
+    margin: 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__card{
+    background: #ffffff;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    width: 33.3333%;
+    margin: 20px;
+  }
+  &__title{
+    font-size: 20px;
+    font-weight: bold;
+    color: vars.$color-blue-swello;
+    padding-bottom: 20px;
+  }
+    &__title2{
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      padding-bottom: 20px;
+  }
+  &__way{
+    color: vars.$color-pink-swello;
+  }
+}
+
+.everywhere{
+  &_container {
+  padding: 10px 80px;
+  }
+  &_card{
+    background: vars.$color-blue-swello;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+  }
+}
+
+.social_icon{
+  width: 24px;
+}
+
+.pub__sista{
+  display: flex;
+  flex-direction: row;
+  &--img{
+    height: 24px;
+  }
+}
+
+.end_of_the_line{
+  position: relative;
+  height: 600px;
+}
+
+.it-is-1h-du-mat-here{
+  height: 312.24px;
+  padding-top: 288px;
+}
+
+.last_smoke{
+  position: relative;
+
+  height: 250px;
+}
+.final_rocket{
+  background-image: url(../../assets/img/rocket.png);
+  background-size: 248px 378.5px;
+  width: 248px;
+  height: 378.5px;
+  position: absolute;
+  display: block;
+  bottom: 50px;
+  left: 40%;
+  right: 40%;
+  z-index: 3;
+  animation-duration: 8s;
+  animation-name: movingRocket;
+  animation-iteration-count: infinite;
+}
+@keyframes movingRocket {
+  0% {
+  transform: translate(0, 0);
+}
+40% {
+  transform: translate(0, -80px);
+}
+100% {
+  transform: translate(0, 0);
+}
+}
