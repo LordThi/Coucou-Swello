@@ -35,21 +35,30 @@
   }
   &__pseudo{
     text-align: left;
-    margin: auto auto auto 20px;
+    margin: auto auto auto 10px;
   }
 }
 .pseudo{
   color: vars.$color-pink-swello;
   font-weight: bolder;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 .disabel_btn{
   background-color: lightgray;
   cursor: not-allowed;
+  width: 310px;
 }
 
-.message__container {
+.chat__message-container {
   border: 1px solid lightgray;
   margin: 20px 20px;
   width: 310px;
+  height: 300px;
+}
+
+.disablebtn__container{
+  width: 310px;
+  height: 47.5px;
+  position: absolute;
 }

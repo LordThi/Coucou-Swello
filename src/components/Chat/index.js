@@ -1,5 +1,6 @@
 import './styles.scss';
 import chatpic from '../../assets/img/chatpic.png';
+import disabledbtn from '../../assets/img/disabledbtn.png';
 
 import whatsapp from '../../assets/img/whatsapp.png'
 import { useState } from 'react';
@@ -22,13 +23,14 @@ const Chat = () => {
             <p className="status">Hors Ligne</p>
           </div>
         </div>
-        <div className="message__container">
+        <div className="chat__message-container">
           <p className="messagerie">
-            Vous vous doutez que je n'ai ps mis de websocket, j'espère. Après si vous vouslez me parler, envoyez moi un petit mot par mail ou sur LinkedIn 👐
+            Vous vous doutez que je n'ai ps mis de websocket, j'espère... Après si vous vouslez me parler, envoyez moi un petit mot par mail ou sur LinkedIn 👐
           </p>
         </div>
-        <p className="is__typing"></p>
         <input className='disabel_btn' type="text" disabled="disabled" placeholder="Nop..."/>
+        <div className="disablebtn__container"></div>
+        <img src={disabledbtn} alt="" />
       </div>
       <div className='chat__btn-container'>
         <button className='chat__btn' onClick={handleClick}>

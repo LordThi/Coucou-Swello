@@ -199,9 +199,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    &-blue-rectangle{
+    &-pink-rectangle{
       height: 10.45%;
-      background-color: vars.$color-blue-swello;
+      background-color: #ffeee8;
       margin-bottom: 2px;
     }
   }

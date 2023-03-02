@@ -9,10 +9,10 @@ import Chat from '../Chat';
 function App() {
   return (
     <div className="app">
-      <Chat />
-      {/* <Header />
+      {/* <Chat /> */}
+      <Header />
       <Main />
-      <Carousel /> */}
+      <Carousel />
     </div>
   );
 }

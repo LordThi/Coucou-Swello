@@ -135,7 +135,7 @@ const Main = () => {
 
         <h2 className='why_title'>Pourquoi Nous? 🫶</h2>
         <p className='why__text'>
-        Faut il connaitre les reseaux sociaux pour être un bon développeur chez swello?
+        Faut-il connaitre les reseaux sociaux pour être un bon développeur chez swello?
         Théoriquement non, mais autant que connaitre ses 🐄 vous aide à faire un bon 🧀, connaitre le coeur de votre activité peut me permettre d'apporter mes idées en plus de ma technique et mon enthousiame.
         </p>
       </div>
@@ -145,7 +145,7 @@ const Main = () => {
       <div className='end_of_main-right-container'>
         <div className='end_of_main-text-container'>
           <p className='end_of_main-text'>
-            Je vous apporterais un cerveau, 10 doigts de plus, énormément de bonne volonté et de l'🤡 (beaucoup).
+            Je vous apporterais un cerveau, 10 doigts de plus, énormément de bonne volonté et de l'🤡.
           </p>
           <p className='end_of_main-text'>
             Vous m'apporterez de l'expérience, des défis pour mon besoin constant d'apprendre et une raison supplémentaire de m'installer dans le coin.
@@ -154,7 +154,7 @@ const Main = () => {
             🤝
           </p>
         </div>
-        <div className='end_of_main-right-container-blue-rectangle'></div>
+        <div className='end_of_main-right-container-pink-rectangle'></div>
       </div>
       <div className='end_of_main-computer'>
         <img  src={betterComputer} alt="" />

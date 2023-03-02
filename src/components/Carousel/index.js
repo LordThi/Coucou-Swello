@@ -105,11 +105,6 @@ const Carousel = () => {
             <a href="https://github.com/LordThi"><img className="social_icon" src={githubpink} alt="" /></a>
             
         </div>
-        <div className="pub__sista">
-          <p className="pub__sista-text">
-            (Et ma petite soeur dont je gère la stratégie)</p>
-          <a href="https://www.instagram.com/madamerrance/"><img className="pub__sista-img" src={pubsista} alt="" /></a>
-        </div>
       </div>
     </div>
     <h1 className="last_bisou">

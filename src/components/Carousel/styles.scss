@@ -116,7 +116,7 @@ img{
       font-size: 20px;
       font-weight: bold;
       color: white;
-      padding-bottom: 20px;
+      padding-bottom: 40px;
   }
   &__way{
     color: vars.$color-pink-swello;
@@ -142,20 +142,6 @@ img{
   width: 40px;
 }
 
-.pub__sista{
-  display: flex;
-  flex-direction: row;
-  margin-top: 40px;
-  justify-content: center;
-  &-text{
-    color: vars.$color-pink-swello;
-    margin: auto 20px;
-  }
-  &-img{
-    height: 30px;
-  }
-}
-
 .end_of_the_line{
   position: relative;
   height: 600px;
@@ -164,10 +150,6 @@ img{
 .it-is-1h-du-mat-here{
   height: 312.24px;
   padding-top: 288px;
-}
-
-.last_bisou{
-  
 }
 
 .final_rocket{
