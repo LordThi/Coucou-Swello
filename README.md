@@ -1,35 +1,19 @@
-# Coucou-Swello
+# Projet Coucou-Swello
+  
+Toutes les entreprises pour lesquelles je postule sont toujours celles avec qui j'ai envie de travailler, je ne suis pas du genre à envoyer des centaines de candidatures comme autant d'hameçons en attendant le premier qui mord.
+Ce projet est à la base une lettre de motivation écrite dans le cadre d'une recherche de stage de fin de formation.  
 
-Alors oui, je sais, vous ne lisez pas les lettres de motivation. Le soucis, c'est que de la motivation, j'en ai et j'ai vraiment envie de vous l'exprimer, alors comment on fait?
+Swello est une entreprise de gestion de reseaux sociaux Toulonnaise (<https://www.swello.com/fr>). Leur processus de recrutement écartait spécifiquement l'envoi de lettre de motivation. Mais comment se démarquer lorsque l'on sort de formation avec pour seuls projets à présenterque nos projets d'études pas spécialement originaux?  
+Plutôt que d'envoyer une lettre de motivation, pourquoi ne pas plutôt envoyer un site motivation?  
+  
+Ce projet est donc la conséquence de cette idée, terminé le 2 mars 2023. Il n'a pas été déployé mais est consultable en l'installant si vous le désirez.  
+Il s'agit donc d'une copie de leur site, codé de zero et adapté au contenu que je voulais développer dans une lettre de motivation.
 
-Je me suis dit qu'il fallait rester dans la sobriété alors j'ai décidé de vous coder un petit site de motivation. Effectivement, puisque vous recherchez un dev et que par un heureux hasard je me destine à en être un, quoi de mieux que le code pour s'exprimer.
-Lao Tseu n'a-t-il pas dit "*Le code est au développeur ce que l'entretien est à l'embauche*"?
+Les illustrations sont maison et inspirées des leurs. Vous pouvez consulter le projet Figma [en suivant ce lien](https://www.figma.com/file/vK4UM2rTQxS53I5CJjB8nP/swello-project?t=fNaPov8Tc2pJKZ5z-1).  
 
-Bon, en tout cas, il l'aurait pu le dire sur LinkedIn (à quelques années près). Ce qui est sûr par contre, c'est qu'un exemple vaut mieux que mille mots, je vous laisse donc découvrir tout cela.
-
-J'espère que l'expérience sera pour vous aussi plaisante à vivre que pour moi à la coder.
-
-Bien `codement`,
-
-Thibaut (Quel beau prénom n'est-ce pas et ce malgré les différentes orthographes 😉)
-
-## Le projet twibo
-
-Il s'agit d'un projet simple mais qui vous est totalement dédié. C'est pour cette raison que je n'ai pas souhaité deployer le site et le rendre accessible au tout venant ni le diffuser. Dans le même esprit, j'ai préféré profiter de cette occasion pour également m'entrainer comme j'aurais pu le faire pour un projet bateau alimentant mon porfolio. Mais, plutôt que de coder des sites vide de sens, je préfère développer un site qui a du coeur 🫀.
-
-Dans la mesure où il s'agit d'un site simple, j'ai préféré ne pas utiliser Redux ou l'utilisation d'une *réelle* base de donnée, afin d'éviter l'effet "Chasser une mouche avec un basouka", j'espère que ce choix ne vous chagrinera pas outre mesure.
-
-Il y a beaucoup de CSS, je m'en suis rendu compte en avançant sur le projet. Certaines parties sont pour le moment en dehors de mon champs de compétance, j'ai donc un peu triché sur celles-ci 🤫.  
-
-Je vous joins le projet Figma [en suivant ce lien](https://www.figma.com/file/vK4UM2rTQxS53I5CJjB8nP/swello-project?t=fNaPov8Tc2pJKZ5z-1).  
-
-Je vous écris ces mots le 2 Mars 2023, après de longs jours/semaines passés sur ce projet. C'est un projet auquel je tiens particulièrement car il s'agit de mon réel premier projet mené de bout en bout. J'ai beaucoup appris et rien que pour cela, l'expérience et les souffrances en ont valu la peine.  
-
-Certaines parties restent perfectibles, notamment les performances (le site est un poil trop lourd) et surtout le responsive qui manque cruellement au site, mais il faut bien livrer le projet en V.1. et le temps presse pour moi aussi.  
-
-Merci de tout coeur de m'avoir tant inspiré 💙
-
-Bonne visite.
+Il est imparfait, manque de responsive et pourrait être amélioré en terme de performances (il est tellement lourd) mais il a été fait avec le coeur et je me dis que, aujourd'hui (6 mois après l'avoir réalisé), il ne méritait pas de rester caché et constituait un instantané de ce que je pouvais faire en sortie de formation.
+  
+Je remercie encore Swello, dont Jonathan Noble son CEO, de m'avoir autorisé à copier leur site pour ce projet d'étudiant.
 
 ### Outils et framework
 
@@ -54,3 +38,7 @@ Enfin, vous pouvez lancer le projet avec la commande `yarn start`. Une nouvelle 
     alt="Gitmoji"
   />
 </a> dont j'aime beaucoup l'état d'esprit.*
+
+### Apperçu statique
+
+<img src="src/assets/img/screen%20projet%20swello.png">
